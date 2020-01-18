@@ -1794,7 +1794,7 @@ var PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 var validateFileURL;
 {
-  var HOSTED_VIEWER_ORIGINS = ["null", "http://shizcow.github.io", "https://shizcow.github.io", "https://github.com/Shizcow", "https://github.com/Shizcow"];
+  var HOSTED_VIEWER_ORIGINS = ["null", "http://pohldev.in", "https://pohldev.in"];
 
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
@@ -1871,7 +1871,7 @@ function webViewerInitialized() {
   var file;
   var queryString = document.location.search.substring(1);
   var params = (0, _ui_utils.parseQueryString)(queryString);
-  file = "https://github.com/Shizcow/resume/raw/master/DevinPohlResume.pdf";
+  file = "resume/DevinPohlResume.pdf";
   //validateFileURL(file);
   var fileInput = document.createElement("input");
   fileInput.id = appConfig.openFileInputName;
