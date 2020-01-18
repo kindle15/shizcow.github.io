@@ -1871,7 +1871,7 @@ function webViewerInitialized() {
   var file;
   var queryString = document.location.search.substring(1);
   var params = (0, _ui_utils.parseQueryString)(queryString);
-  file = "resume/DevinPohlResume.pdf";
+  file = "DevinPohlResume.pdf";
   //validateFileURL(file);
   var fileInput = document.createElement("input");
   fileInput.id = appConfig.openFileInputName;
