@@ -1872,7 +1872,7 @@ function webViewerInitialized() {
   var queryString = document.location.search.substring(1);
   var params = (0, _ui_utils.parseQueryString)(queryString);
   file = "https://github.com/Shizcow/resume/raw/master/DevinPohlResume.pdf";
-  validateFileURL(file);
+  //validateFileURL(file);
   var fileInput = document.createElement("input");
   fileInput.id = appConfig.openFileInputName;
   fileInput.className = "fileInput";
